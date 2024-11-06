@@ -33,3 +33,10 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>gg", vim.cmd.LazyGit)
+
+vim.keymap.set("n", "<leader>w", "<C-w>")
+
+vim.keymap.set("n", "<leader>xj", "<C-w>k<C-w>h")
+vim.keymap.set("n", "<leader>xk", "<C-w>k<C-w>l")
+vim.keymap.set("n", "<leader>xl", "<C-w>j<C-w>h")
+vim.keymap.set("n", "<leader>x;", "<C-w>j<C-w>l")
