@@ -36,7 +36,10 @@ vim.keymap.set("n", "<leader>gg", vim.cmd.LazyGit)
 
 vim.keymap.set("n", "<leader>w", "<C-w>")
 
+-- Window Management Shortcuts
 vim.keymap.set("n", "<leader>xj", "<C-w>k<C-w>h")
 vim.keymap.set("n", "<leader>xk", "<C-w>k<C-w>l")
 vim.keymap.set("n", "<leader>xl", "<C-w>j<C-w>h")
 vim.keymap.set("n", "<leader>x;", "<C-w>j<C-w>l")
+
+
